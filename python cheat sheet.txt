@@ -1,0 +1,126 @@
+Cheat sheet for some of the most basic building blocks for writing python scripts
+
+
+Variables and Data Types:
+
+# Variables
+x = 5
+name = "John"
+
+# Data Types
+integer_number = 10
+float_number = 3.14
+string = "Hello, World!"
+boolean = True
+
+
+Input & Output:
+
+# Input
+name = input("Enter your name: ")
+
+# Output
+print("Hello,", name)
+
+
+Conditional statements:
+
+# if-else statement
+x = 10
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+
+
+loops:
+
+
+# for loop
+for i in range(5):
+    print(i)
+
+# while loop
+x = 0
+while x < 5:
+    print(x)
+    x += 1
+
+
+
+Lists:
+
+# List creation
+my_list = [1, 2, 3, 4, 5]
+
+# Accessing elements
+print(my_list[0])  # prints 1
+
+# Modifying elements
+my_list[0] = 10
+
+# Iterating through a list
+for item in my_list:
+    print(item)
+
+
+Dictionaries:
+
+# Dictionary creation
+my_dict = {"name": "John", "age": 30, "city": "New York"}
+
+# Accessing values
+print(my_dict["name"])  # prints "John"
+
+# Modifying values
+my_dict["age"] = 35
+
+# Iterating through a dictionary
+for key, value in my_dict.items():
+    print(key, ":", value)
+
+
+
+Functions:
+
+# Function definition
+def greet(name):
+    print("Hello,", name)
+
+# Function call
+greet("Alice")
+
+
+
+Modules and Libraries:
+
+# Importing modules
+import math
+
+# Using module functions
+print(math.sqrt(25))  # prints 5.0
+
+
+
+Exceptions:
+
+# try-except block
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+
+
+File input & Output:
+
+# Writing to a file
+with open("example.txt", "w") as file:
+    file.write("Hello, World!")
+
+# Reading from a file
+with open("example.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+
